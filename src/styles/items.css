@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.list-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #860e3e;
+}
+
+.list-item .fa-trash{
+    color: #51293d;
+}
+.list-item .fa-trash:hover{
+    color: #c91e1e;
+}
